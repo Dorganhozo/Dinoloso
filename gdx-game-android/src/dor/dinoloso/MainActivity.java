@@ -11,7 +11,7 @@ public class MainActivity extends AndroidApplication {
         super.onCreate(savedInstanceState);
         
         AndroidApplicationConfiguration cfg = new AndroidApplicationConfiguration();
-        
-        initialize(new MyGdxGame(), cfg);
+		
+        initialize(new DinolosoGame(), cfg);
     }
 }
